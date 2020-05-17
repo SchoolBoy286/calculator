@@ -20,7 +20,7 @@ namespace Calculator
         double total1 = 0;
         double total2 = 0;
 
-        // Number, point, and clear button functionality
+        // Создание конфликтной ситуации во второй ветке
         private void btnOne_Click(object sender, EventArgs e)
         {
             txtDisplay.Text = txtDisplay.Text + btnOne.Text;
